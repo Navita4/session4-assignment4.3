@@ -1,0 +1,29 @@
+#divbox{
+    text-align:center;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    border-color:blue;
+     opacity: 0.6;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 60px;
+    }
+body{
+    background-color: lightgreen;
+   text-align: center;
+}
+.circle{
+    width: 100px;
+    padding: 50px 0;
+    margin: 60px,auto;
+    color: blue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:1s transform 0.3s;
+}
+.circle:hover{
+    background: orange;
+    transform: rotate(360deg)
+}
